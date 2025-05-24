@@ -1,0 +1,17 @@
+"emmet.includeLanguages": {
+  "html": "html",
+  "javascript": "javascriptreact"
+},
+"files.associations": {
+  "*.html": "html"
+},
+"editor.tokenColorCustomizations": {
+  "textMateRules": [
+    {
+      "scope": "source.css.embedded.html",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    }
+  ]
+}
