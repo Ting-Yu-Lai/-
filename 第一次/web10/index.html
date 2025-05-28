@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>國立科技高中-校園社團介紹網</title>
+   <link rel="stylesheet" href="./css/style.css">
+   <style>
+      img {
+         width: 100%;
+      }
+
+      marquee {
+         font-family: '標楷體';
+         font-size: 24px;
+         color: #0000FF;
+      }
+
+      .cl-title {
+         font-size: 24px;
+         text-align: center;
+         color: #FF00FF;
+         font-weight: 500;
+         font-family: '標楷體';
+
+         width: 100px;
+         height: 30px;
+         /* background-color: pink; */
+         border-bottom: 1px solid black;
+         margin: auto;
+      }
+
+      .cl-menu {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+
+      }
+
+      .cl-menu>div,
+      .item {
+         width: 200px;
+         height: 35px;
+         /* background-color: blue; */
+         margin-top: 10px;
+         background-image: url(./images/menu1.png);
+         padding-top: 5px;
+         color: #000000;
+         font-size: 16px;
+      }
+
+      .cl-menu>div:hover {
+         background-image: url(./images/menu2.png)
+      }
+
+      .cl-bottom {
+         font-family: '標楷體';
+         color:#000000;
+         font-size:16px;
+         text-align: center;
+      }
+      iframe {
+         width: 100%;
+         height: 100%;
+      }
+
+      footer {
+         /* (＊)2.文字字型為標楷體。
+(＊)3.文字顏色為#000000，水平置中對齊。
+(＊)4.文字的字型大小 16px (medium、size=3)。 */
+         font-family: '標楷體';
+         color: #000000;
+         text-align:center;
+         font-size:16px;
+      }
+   </style>
+</head>
+
+<body>
+   <!-- Header -->
+   <header class="header">
+      <a href="index.html">
+         <img src="./images/logo.png" alt="國立科技高中校園社團介紹網">
+      </a>
+   </header>
+
+   <!-- container -->
+   <div class="container">
+      <!-- container-left -->
+      <div class="container-left">
+         <!-- cl-top -->
+         <div class="cl-top">
+            <!-- 社團介紹 -->
+            <div class="cl-title">
+               社團介紹
+            </div>
+            <!-- menu -->
+            <div class="cl-menu">
+               <div class="item">
+                  <a href="guitar_history.html" target="myIframe">
+                     吉他社
+                  </a>
+               </div>
+               <div class="item">熱舞社</div>
+               <div class="item">棒球社</div>
+               <div class="item">羽球社</div>
+               <div class="item">足球社</div>
+               <div class="item">童軍社</div>
+            </div>
+         </div>
+         <!-- cl.botton -->
+         <div class="cl-bottom">
+            最近更新日期：2025/05/23
+
+         </div>
+      </div>
+      <!-- container-right -->
+      <div class="container-right">
+         <!-- cr-top -->
+         <div class="cr-top">
+            <marquee width="100%" direction="left" height="100px">
+               歡迎光臨校園社團介紹網，參觀後請支持社團活動並熱烈參與
+            </marquee>
+
+         </div>
+         <!-- cr.botton -->
+         <div class="cr-bottom">
+            <iframe src="./main.html" frameborder="0" name="myIframe"></iframe>
+         </div>
+      </div>
+   </div>
+
+   <!-- footer -->
+   <footer class="footer">
+      網頁設計及維護：10賴廷育
+      
+   </footer>
+</body>
+
+</html>
