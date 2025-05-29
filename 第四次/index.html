@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>國立科技高中─校園社團介紹網</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "標楷體";
+        margin: 0;
+      }
+      body {
+        width: 1024px;
+        height: 768px;
+        margin: auto;
+      }
+
+      header {
+        width: 100%;
+        height: 65px;
+        background-color: lightblue;
+        margin: auto;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .main {
+        width: 100%;
+        height: calc(100% - 65px - 20px);
+        background-color: lightpink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container-left {
+        width: 215px;
+        height: 100%;
+        background-color: #fff;
+      }
+
+      /* cl-top */
+      .cl-top {
+        width: 100%;
+        height: calc(100% - 25px);
+        background-color: yellow;
+      }
+      /* cl-bottom*/
+      .cl-bottom {
+        width: 100%;
+        height: 25px;
+        background-color: lightblue;
+      }
+
+      .container-right {
+        width: calc(100% - 215px);
+        height: 100%;
+        background-color: #0ff;
+      }
+
+      /* cr-top */
+      .cr-top {
+        width: 100%;
+        height: 29px;
+        /* background-color: #00f; */
+      }
+
+      marquee {
+        font-size: 24px;
+        color: #0000ff;
+      }
+
+      /* cr-bottom */
+      .cr-bottom {
+        width: 100%;
+        height: calc(100% - 29px);
+        background-color: #f0f;
+      }
+
+      footer {
+        width: 100%;
+        height: 20px;
+        background-color: lightcoral;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.png" alt="國立科技高中校園社團介紹網" />
+    </header>
+    <div class="main">
+      <!-- container-left -->
+      <div class="container-left">
+        <!-- cl-top -->
+        <div class="cl-top"></div>
+        <!-- cl-bottom -->
+        <div class="cl-bottom"></div>
+      </div>
+
+      <!-- container-right -->
+      <div class="container-right">
+        <!-- cr-top -->
+        <div class="cr-top">
+          <marquee behavior="left" direction="0">
+            歡迎光臨校園社團介紹網，參觀後請支持社團活 動並熱烈參與
+          </marquee>
+        </div>
+        <!-- cr-bottom -->
+        <div class="cr-bottom"></div>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>
